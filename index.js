@@ -12,6 +12,10 @@ if (process.env.NODE_ENV !== 'production')
     app.use(morgan('dev'));
 app.use(cors())
 app.use(helmet())
+app.use(helmet.frameguard({
+    action: 'allow-from',
+    domain: 'https://dakboard.com'
+  }))
 
 app.get('/', (req, res) => {
     res.send('Welcome to panel controls')
