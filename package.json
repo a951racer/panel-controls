@@ -1,0 +1,32 @@
+{
+  "name": "panel-controls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a951racer/panel-controls.git"
+  },
+  "author": "Jon M Hobbs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a951racer/panel-controls/issues"
+  },
+  "homepage": "https://github.com/a951racer/panel-controls#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
